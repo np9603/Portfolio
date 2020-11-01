@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- ===== BOX ICONS ===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Portfolio website | Nihal Parchand</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="1-header">
+      <nav class="nav bd-grid">
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+        <div>
+          <a href="" class="nav__logo"> Nihal Parchand</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+                <a href="#education" class="nav__link">Education</a>
+              </li>
+            <!-- <li class="nav__item">
+              <a href="#experience" class="nav__link">Experience</a>
+            </li> -->
+            <li class="nav__item">
+              <a href="#works" class="nav__link">Works</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+        <div class="home__container bd-grid">
+          <div class="home__data">
+            <div class="home__img">
+              <img src="assets/img/perfil.png" alt="" />
+            </div>
+            <h1 class="home__title">Nihal Parchand</h1>
+            <span class="home__profession">
+              Software Engineer | Data Analyst
+            </span>
+            <div class="home__social">
+              <a href="https://www.linkedin.com/in/nihal-parchand/" class="home__social-link"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a href="https://github.com/np9603" class="home__social-link"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a href="" class="home__social-link"
+                ><i class="bx bxl-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/nihalparchand/" class="home__social-link"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+            </div>
+            <a download="https://drive.google.com/file/d/1Dl3EAdK3Z5fSwRN29CX99gmW7LvKYU1a/view?usp=sharing" href="" class="button home__button"
+              >Download Resume</a
+            >
+          </div>
+        </div>
+      </section>
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <span class="section-subtitle"> My Intro </span>
+        <h2 class="section-title">About Me</h2>
+        <div class="about__container bd-grid">
+          <div class="about__data">
+            <p class="about__description">
+              My passion for data analytics piqued after working rigorously on
+              various academic and personal projects. I feel confident about the
+              knowledge that I have gained by applying data preprocessing,
+              mining and visualization techniques on different open-source
+              datasets in a structured manner. Proficient in Python, SQL, R,
+              Tableau and in areas of data cleaning and preparation, mining
+              algorithms, visualizations. Intermediate in Java, Flask, Django
+              Apart from studies, I am an avid soccer fan and love to play
+              outdoor sports.
+            </p>
+            <img src="assets/img/perfil.png" alt="" class="about__img" />
+          </div>
+          <div>
+            <div class="about__information">
+              <h3 class="about__information-title">Information</h3>
+              <div class="about__information-data">
+                <i class="bx bx-user about__information-icon"></i>
+                <span>Nihal Parchand</span>
+              </div>
+              <div class="about__information-data">
+                <i class="bx bx-phone about__information-icon"></i>
+                <span>585-503-7212</span>
+              </div>
+              <div class="about__information-data">
+                <i class="bx bx-envelope about__information-icon"></i>
+                <span>np9603@rit.edu</span>
+              </div>
+              <div class="about__information">
+                <h3 class="about__information-title">Experience</h3>
+                <div class="about__information-data">
+                  <i class="bx bx-medal about__information-icon"></i>
+                  <div>
+                    <span class="about__information-subtitle"> 1 year</span>
+                    <span class="about__information-subtitle-small">
+                      Co-op Experience</span
+                    >
+                  </div>
+                </div>
+                <div class="about__information-data">
+                  <i class="bx bx-support about__information-icon"></i>
+                  <div>
+                    <span class="about__information-subtitle"> Support </span>
+                    <span class="about__information-subtitle-small">
+                      Online 24/7</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <span class="section-subtitle"> Why Choose Me</span>
+        <h2 class="section-title">My area of expertise</h2>
+        <div class="skills__container bd-grid">
+          <div class="skills__content">
+            <h3 class="skills_subtitle">Backend</h3>
+            <div class="skills__data">
+              <span class="skills__name">Java</span>
+              <span class="skills__number">80%</span>
+              <span class="skills__bar skills__java"></span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">Python</span>
+              <span class="skills__number">90%</span>
+              <span class="skills__bar skills__python"></span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">R</span>
+              <span class="skills__number">70%</span>
+              <span class="skills__bar skills__R"></span>
+            </div>
+            <div class="skills__data">
+                <span class="skills__name">PHP</span>
+                <span class="skills__number">80%</span>
+                <span class="skills__bar skills__php"></span>
+              </div>
+            <div class="skills__data">
+              <span class="skills__name">MySQL</span>
+              <span class="skills__number">80%</span>
+              <span class="skills__bar skills__sql"></span>
+            </div>
+            
+          </div>
+          
+          <div class="skills__content">
+            <h3 class="skills_subtitle">Front End </h3>
+            <div class="skills__data">
+                <span class="skills__name">HTML/CSS</span>
+                <span class="skills__number">90%</span>
+                <span class="skills__bar skills__html"></span>
+              </div>
+              <div class="skills__data">
+                <span class="skills__name">Javascript</span>
+                <span class="skills__number">90%</span>
+                <span class="skills__bar skills__js"></span>
+              </div>
+              <div class="skills__data">
+                <span class="skills__name">Jquery</span>
+                <span class="skills__number">90%</span>
+                <span class="skills__bar skills__jq"></span>
+              </div>
+              <div class="skills__data">
+                <span class="skills__name">Bootstrap</span>
+                <span class="skills__number">90%</span>
+                <span class="skills__bar skills__bs"></span>
+              </div>
+            </div>
+
+            <div class="skills__content">
+                <h3 class="skills_subtitle">Tools </h3>
+                <div class="skills__data">
+                    <span class="skills__name">Tableau</span>
+                    <span class="skills__number">90%</span>
+                    <span class="skills__bar skills__tableau"></span>
+                  </div>
+                  <div class="skills__data">
+                    <span class="skills__name">Git</span>
+                    <span class="skills__number">90%</span>
+                    <span class="skills__bar skills__gh"></span>
+                  </div>
+                  <div class="skills__data">
+                    <span class="skills__name">JIRA</span>
+                    <span class="skills__number">90%</span>
+                    <span class="skills__bar skills__jira"></span>
+                  </div>
+                  <div class="skills__data">
+                    <span class="skills__name">Jenkins</span>
+                    <span class="skills__number">90%</span>
+                    <span class="skills__bar skills__jk"></span>
+                  </div>
+                  <div class="skills__data">
+                    <span class="skills__name">HP QTP</span>
+                    <span class="skills__number">90%</span>
+                    <span class="skills__bar skills__qtp"></span>
+                  </div>
+                  <div class="skills__data">
+                    <span class="skills__name">HP Winrunner</span>
+                    <span class="skills__number">90%</span>
+                    <span class="skills__bar skills__hwr"></span>
+                  </div>
+                </div>
+
+
+            </div>
+            
+            </div>
+            
+        </div>
+
+        </div>
+      </section>
+      <!--===== EDUCATION =====-->
+<section class="education selection" id="education">
+    <span class="section-subtitle">
+        Qualification
+    </span>
+    <h2 class="section-title">
+           My Education 
+    </h2>
+    <div class="education__container bd-grid">
+        <div class="education__content">
+            <div>
+                <h3 class="education__year">
+                    2018 - Present
+                </h3>
+                <span class="education__university">
+                    Rochester Institute of Technology
+                </span>
+            </div>
+            <div class="education__time">
+                <span class="education__rounder"></span>
+                <span class="education__line"></span>
+            </div>
+            <div>
+                <h3 class="education__race">
+                    Masters in Computer Science
+                </h3>
+                 
+            </div>
+        </div>
+
+        <div class="education__content">
+            <div>
+                <h3 class="education__year">
+                    2013 - 2017
+                </h3>
+                <span class="education__university">
+                    Mumbai University
+                </span>
+            </div>
+            <div class="education__time">
+                <span class="education__rounder"></span>
+                <span class="education__line"></span>
+            </div>
+            <div>
+                <h3 class="education__race">
+                    Bachelor of Engineering in Computer Science
+                </h3>
+                
+            </div>
+        </div>
+
+    </div>
+</section>
+
+      <!--===== SERVICES =====-->
+<section class="services section" id="services">
+<span class="section-subtitle"> What I offer</span>
+<h2 class="section-title">
+        My Services
+</h2>
+<div class="services__container bd-grid">
+    <div class="services__content">
+        <i class="bx bx-code services__icon"></i>
+        <h3 class="services__title">
+            Data Analyst
+        </h3>
+        <p class="services__description">
+            My passion for data analytics piqued after working rigorously on various academic and personal projects. I feel confident about the knowledge that I have gained by applying data preprocessing, mining and visualization techniques on different open-source datasets in a structured manner.
+        </p>
+    </div>
+    <div class="services__content">
+        <i class="bx bx-server services__icon"></i>
+        <h3 class="services__title">
+            Backend Development
+        </h3>
+        <p class="services__description">
+            write something
+        </p>
+    </div>
+
+</div>
+</section>
+ <!--===== WORKS =====-->
+ <section class="works section" id="works">
+     <span class="section-subtitle"> My Portfolio</span>
+    <h2 class="section-title">Recent Work</h2>
+
+    <div class="works__container bd-grid">
+        <div class="works__img">
+            <img src="assets/img/work1.jpg" alt="">
+            <div class="works__data">
+                <a href="" class="works__link">
+                    <i class="bx bx-link-alt"></i>
+                </a>
+                <span class="works__title">Work 1</span>
+            </div>
+        </div>
+        <div class="works__img">
+            <img src="assets/img/work1.jpg" alt="">
+            <div class="works__data">
+                <a href="" class="works__link">
+                    <i class="bx bx-link-alt"></i>
+                </a>
+                <span class="works__title">Work 1</span>
+            </div>
+        </div>
+        <div class="works__img">
+            <img src="assets/img/work1.jpg" alt="">
+            <div class="works__data">
+                <a href="" class="works__link">
+                    <i class="bx bx-link-alt"></i>
+                </a>
+                <span class="works__title">Work 1</span>
+            </div>
+        </div>
+        <div class="works__img">
+            <img src="assets/img/work1.jpg" alt="">
+            <div class="works__data">
+                <a href="" class="works__link">
+                    <i class="bx bx-link-alt"></i>
+                </a>
+                <span class="works__title">Work 1</span>
+            </div>
+        </div>
+        <div class="works__img">
+            <img src="assets/img/work1.jpg" alt="">
+            <div class="works__data">
+                <a href="" class="works__link">
+                    <i class="bx bx-link-alt"></i>
+                </a>
+                <span class="works__title">Work 1</span>
+            </div>
+        </div>
+        <div class="works__img">
+            <img src="assets/img/work1.jpg" alt="">
+            <div class="works__data">
+                <a href="" class="works__link">
+                    <i class="bx bx-link-alt"></i>
+                </a>
+                <span class="works__title">Work 1</span>
+            </div>
+        </div>
+        
+    </div>
+</section>
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <span class="section-subtitle">Contact Me</span>
+        <h2 class="section-title"> Get In Touch</h2>
+        <div class="contact__container bd-grid">
+            <form action="" class="contact__form">
+                <div class="contact__inputs">
+                    <input type="text" name="Name" class="contact__input" placeholder="Name">
+                    <input type="mail" name="Email" class="contact__input" placeholder="Email">
+                </div>
+                <input type="text" placeholder="Project" class="contact__input">
+                <textarea class="contact__input" name="" id="" cols="0" rows="10" placeholder="Message"></textarea>
+                <input type="submit" value="Send Message" class="button contact__button">
+            </form>
+            <div>
+                <div class="contact__info">
+                     <h3 class="contact__subtitle">Call Me</h3>
+                     <span class="contact__text">585-503-7212</span>
+                </div>
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">Email</h3>
+                    <span class="contact__text">np9603@rit.edu</span>
+               </div>
+               <div class="contact__info">
+                <h3 class="contact__subtitle">Location</h3>
+                <span class="contact__text">1635-5 Crittenden Way,</span>
+                <span class="contact__text">Rochester, NY</span>
+           </div>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+<footer class="footer section">
+    <div class="footer__container bd-grid">
+        <h1 class="footer__title">Nihal</h1>
+        <p class="footer__description">I am Nihal and this is my personal website, consult me here.</p>
+    <div class="footer__social">
+        <a href="" class="footer__link"><i class="bx bxl-facebook"></i></a>
+        <a href="" class="footer__link"><i class="bx bxl-instagram"></i></a>
+    </div>
+    <p class="footer__copy">
+        All rights reserved by Nihal-Parchand - 2020
+    </p>
+    </div>
+</footer>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
