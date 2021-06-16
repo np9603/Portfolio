@@ -188,10 +188,11 @@ img {
   text-align: center;
 }
 .home__img {
-  padding-top: 1.3rem;
+  /* padding-top: 1.3rem;
   padding-left: 0.8rem;
   width: 160px;
-  height: 160px;
+  height: 160px; */
+  zoom: 3;
   background-color: var(--first-color);
   border-radius: 50%;
   overflow: hidden;
